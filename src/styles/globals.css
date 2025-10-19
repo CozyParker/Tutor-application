@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-midnight text-white font-sans antialiased;
+}
+
+a {
+  @apply text-roognis-accent hover:text-teal-200 transition-colors;
+}
